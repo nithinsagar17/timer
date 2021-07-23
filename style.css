@@ -1,0 +1,99 @@
+body{
+   background-color: aqua
+
+;
+
+}
+h1{
+    color: rgb(214, 28, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#container {
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(4,1fr) ;
+    color: rgb(106, 207, 24);
+align-self: center;
+}
+.label{
+    align-self: center;
+    justify-self: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#work{
+    text-align: center;
+    grid-area: 1 / 2 / 1 / 2 ;
+}
+#break{
+    grid-area: 1 / 4 / 1 / 4;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.timer{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+#work-timer{
+grid-area: 2 / 3  / 2 / 3 ;
+position:relative ;
+left: -135px;
+
+
+
+}
+#Break-timer{
+    grid-area: 2 / 4 / 2 / 4;
+    
+}
+.btn{
+
+    align-self: center;
+    justify-self: center;
+
+    width: 100px;
+    height: 30px;
+
+    font-size: 20px;
+    
+    
+}
+
+#minutes{
+    grid-area: 2 / 5 / 2 / 5;
+}
+.semicolon{
+    justify-self: center;
+    align-self: center;
+font-size: 30px;
+margin:0;
+}
+
+#p1{
+    grid-area:  2 / 3 / 2 / 4;
+}
+#seconds{
+    grid-area: 2 / 3 / 2 / 4;
+}
+#start{
+     
+    
+ position: relative;
+   left: 179px;
+   top: 130px;
+}
+#reset{position: relative;
+    left: 104px;
+top: 130px;
+    }
+    

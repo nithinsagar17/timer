@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>TIMER</title>    
+    </head>
+    <body>
+        <h1>MY TIMER</h1>
+        <div id="container">
+            <p id="work" class="label">WORK:</p><p id="break" class="label">BREAK:</p>
+        
+      <div id="work-timer" class="timer">
+          <p id="w_minutes" class="label"></p><p id="w_seconds" class="label"></p>
+   <input id="wminutes" type="number" max="99" min="00" value="00"><p id="p1" class="semicolon">:</p><input id="wseconds" type="number" max="60" min="00" value="00">    
+  </div>
+
+      <div id="Break-timer" class="timer">
+          <p id="b_minutes" class="label"></p><p id="b_seconds" class="label"></p>
+     <input id="bminutes" type="number" max="60" min="00" value="00"><p id="p2" class="semicolon">:</p><input id="bseconds" type="number" max="60" min="00" value="00">  
+        </div>
+        
+        <button  id="start" class="btn">START</button>
+        <button  id="reset" class="btn">RESET</button>
+</div>
+<script src="main.js"></script>
+    </body>
+</html>
